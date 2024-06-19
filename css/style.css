@@ -1,0 +1,65 @@
+:root{
+    --mainColor:#f3d92b;
+    --mainFont:"Kanit", sans-serif;
+}
+
+main{
+    background-image: url(../imge/Designer1.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.container{
+    margin-top: 10%;
+}
+.con{
+    font-size: 25px;
+    color: #000;
+}
+
+nav,main{
+    font-family: var(--mainFont);
+}
+
+.logo-1{
+    color: var(--mainColor) ;
+}
+label{
+    font-size: larger;
+    font-weight: 600;
+    color: #000;
+}
+textarea{
+    min-width: 300px;
+    max-width: 400px;
+    max-height: 200px;
+    resize: both;
+}
+.form-control{
+    border-color: var(--mainColor);
+}
+
+.btn-tr{
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    transition: all .2s;
+}
+.btn-tr:hover{
+    background-color: var(--mainColor);
+}
+
+.form-control:focus {
+    border-color: var(--mainColor);
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 0, 0.377);
+}
+
+.copy{
+    cursor: pointer;
+    top: 40%;
+    right: 0;
+    z-index: 22;
+}
